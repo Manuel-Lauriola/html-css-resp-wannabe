@@ -149,6 +149,14 @@ img {
         width: 100%;
     }
 
+    .card p {
+        margin-bottom: 4rem;
+    }
+
+    /* .card p:not(:last-child){
+        margin-bottom: 4rem;
+    } */
+
     .steps .col {
         width: 100%;
     }
@@ -163,13 +171,18 @@ img {
 
     .lessons .col img {
         height: auto;
-        margin-bottom: 1rem;
     }
 
     .steps .col img {
         height: auto;
-        margin-bottom: 1rem;
     }
 
-    ;
+    .why-us .container {
+        background-color: #070707;
+        padding-top: 3rem;
+    }
+
+    .steps {
+        margin: 0 0;
+    }
 }
